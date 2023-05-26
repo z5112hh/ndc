@@ -1,5 +1,5 @@
 name: 'Hello World Docker Action'
-description: 'Say hello to a user or the world.'
+description: 'Say hello to a user or the wor   nbbbbld.'
 inputs:
   who-to-greet:
     description: 'Who to greet'
