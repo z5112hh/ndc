@@ -24,3 +24,12 @@ jobs:
         run: |
           echo "The repository ${{ github.repository }} contains the following files:"
           tree
+          
+  Test:
+    runs-on: ubuntu-latest
+    env:
+      name: Test
+    steps:
+      - run: | 
+          echo "Testing..."
+          sleep 15
